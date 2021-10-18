@@ -1,0 +1,50 @@
+.hero__section {
+    background-image: url(./../images/hero/Bitmap.png);
+    background-size: cover;
+    padding-top: 150px;
+    padding-bottom: 150px;
+}
+
+.hero__head-text{
+    font-family: 'Space Mono';
+    max-width: 500px;
+    font-size: 56px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 56px;
+    letter-spacing: -2.5px;
+    text-align: left;
+    margin-bottom: 40px;   
+}
+
+.hero__text-wrapper{
+    margin-left: 80px;
+}
+
+.hero__text{
+    position: relative;
+    max-width: 405px;
+    margin-bottom: 40px;
+
+    &::before{
+        content: "";
+        position: absolute;
+        display: block;
+        background-image: url(./../../images/hero/Path\ 2.svg);
+    }
+}
+
+.hero__link{
+    font-family: 'Space Mono';
+    text-decoration: none;
+    padding: 14px 39px;
+    color: white;
+    background-color: $yellow;
+    border: 2px solid $yellow;
+    
+    &:hover{
+        background-color: white;
+        color: $yellow;
+        border: 2px solid $yellow;
+    }
+}

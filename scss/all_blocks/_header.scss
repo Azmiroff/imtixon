@@ -1,0 +1,47 @@
+.header__wrapper{
+    font-family: 'Space Mono'sans-serif;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.header__nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header__list{
+    display: flex;
+    text-decoration: none;
+    margin-left: 51px;
+    margin-right: 400px;
+}
+
+.header__list--item{
+    font-family: 'Space Mono';
+    margin: 0 16px;
+    text-decoration: none;
+    color: $DimGrey;
+
+    &:hover{
+        color: $yellow;
+    }
+}
+
+
+.header__link{
+    font-family: 'Space Mono';
+    text-decoration: none;
+    padding: 14px 39px;
+    color: white;
+    background-color: $yellow;
+    border: 2px solid $yellow;
+
+    &:hover{
+        background-color: white;
+        color: $yellow;
+        border: 2px solid $yellow;
+    }
+}
