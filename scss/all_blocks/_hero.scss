@@ -14,7 +14,8 @@
     line-height: 56px;
     letter-spacing: -2.5px;
     text-align: left;
-    margin-bottom: 40px;   
+    margin-bottom: 40px;
+    color: white;   
 }
 
 .hero__text-wrapper{
@@ -22,15 +23,35 @@
 }
 
 .hero__text{
+    color: white;
     position: relative;
     max-width: 405px;
     margin-bottom: 40px;
 
     &::before{
         content: "";
+        display: flex;
         position: absolute;
-        display: block;
-        background-image: url(./../../images/hero/Path\ 2.svg);
+        top: 50%;
+        margin-left: -50%;
+        background-image: url("./../images/hero/path22.png");
+        background-size: 100%;
+        background-repeat: no-repeat;
+        width: 200px;
+        height: 10px;
+    }
+
+    &::after{
+        content: "";
+        display: flex;
+        position: absolute;
+        top: 50%;
+        margin-left: 100%;
+        background-image: url("./../../images/hero/heroim2.svg");
+        background-size: 100%;
+        background-repeat: no-repeat;
+        width: 450px;
+        height: 150px;
     }
 }
 
